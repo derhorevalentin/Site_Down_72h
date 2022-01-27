@@ -530,28 +530,29 @@ const PageList = (argument1 = "")=>{
         let articles = "";
         const fetchList = (url, argument)=>{
             let finalURL = url;
-            url += "ordering=released";
             if (argument) finalURL = url + "&search=" + argument;
             fetch(`${finalURL}`).then((response)=>response.json()
             ).then((response)=>{
                 console.log(response);
                 response.results.forEach((article)=>{
+                    console.log(article);
                     articles += `
               <div class="cardGame">
                 <img src="${article.background_image}" alt="game image">
                 <h1>${article.name}</h1>
                 
                 <div class="overview">
-                  <h3>${article.name}</h3>
+                  
                   <h1>${article.released}</h1>
-                  <p>Rating: ${article.metacritic}</p>
-                    <a href = "#pagedetail/${article.slug}">${article.slug}</a>
+                  <p>Note : ${article.rating}</p>
+                    <a href = "#pagedetail/${article.slug}">${article.name}</a>
                 </div>
               </div>
             `;
                 });
                 document.querySelector(".page-list .articles").innerHTML = articles;
             });
+            let nextPage = fetch;
         };
         fetchList(`https://api.rawg.io/api/games?key=${apiKey}`, cleanedArgument + "&page_size=9");
     };

@@ -2,7 +2,6 @@ const apiKey = process.env.API_KEY;
 
 const Home = () => {
   const preparePage = () => {
-    
     let articles = "";
     
     const fetchList = (url) => {
@@ -12,8 +11,7 @@ const Home = () => {
         .then((response) => {
           console.log(response);
           response.results.forEach((article) => {
-            articles += `
-              <div class="cardGame">
+            articles += `<div class="cardGame">
                 <img src="${article.background_image}" alt="game image">
                 <h1>${article.name}</h1>
                 
@@ -27,8 +25,7 @@ const Home = () => {
             `;
           });
           document.querySelector(".page-list .articles").innerHTML = articles;
-        });
-      
+        });   
     };
 
     fetchList(
@@ -37,9 +34,8 @@ const Home = () => {
   };
 
   const render = () => {
-    pageContent.innerHTML = `
-    <div class="description">
-      <h3>Soties récente des jeux de janvier 2022:</h1>
+    pageContent.innerHTML = `<div class="description">
+      <h3>Sorties récentes des jeux de janvier 2022:</h1>
     </div>
       <section class="page-list">
         <div class="articles">...loading</div>

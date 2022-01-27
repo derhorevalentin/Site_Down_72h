@@ -1,22 +1,22 @@
 12504
 46/home/vali/THP1/Video_Games_Js/dist/index.html1643295667830214500 0
 58/home/vali/THP1/Video_Games_Js/dist/index.4ed70eec.css.map1643295667770214500 0
-53/home/vali/THP1/Video_Games_Js/dist/index.6765d2ea.js1643296050060214500 0
+53/home/vali/THP1/Video_Games_Js/dist/index.6765d2ea.js1643298655200214500 0
 53/home/vali/THP1/Video_Games_Js/dist/index.975ef6c8.js1643295667710214500 0
 57/home/vali/THP1/Video_Games_Js/dist/index.397f290a.js.map1643295667830214500 0
 57/home/vali/THP1/Video_Games_Js/dist/index.975ef6c8.js.map1643295667710214500 0
-57/home/vali/THP1/Video_Games_Js/dist/index.996ecb51.js.map1643295745400214500 0
-53/home/vali/THP1/Video_Games_Js/dist/index.0c9a4cb8.js1643295667710214500 0
-57/home/vali/THP1/Video_Games_Js/dist/index.6765d2ea.js.map1643296050060214500 0
-57/home/vali/THP1/Video_Games_Js/dist/index.0c9a4cb8.js.map1643295667710214500 0
+57/home/vali/THP1/Video_Games_Js/dist/index.996ecb51.js.map1643298426110214500 0
+53/home/vali/THP1/Video_Games_Js/dist/index.0c9a4cb8.js1643298467180214500 0
+57/home/vali/THP1/Video_Games_Js/dist/index.6765d2ea.js.map1643298655200214500 0
+57/home/vali/THP1/Video_Games_Js/dist/index.0c9a4cb8.js.map1643298467190214500 0
 54/home/vali/THP1/Video_Games_Js/dist/index.def16a1e.css1643109045512677400 0
 43/home/vali/THP1/Video_Games_Js/package.json1643108653022677400 0
 41/home/vali/THP1/Video_Games_Js/.gitignore1643113063302677400 0
-46/home/vali/THP1/Video_Games_Js/src/PageList.js1643295745200214500 0
-48/home/vali/THP1/Video_Games_Js/src/PageDetail.js1643294191410214500 0
+46/home/vali/THP1/Video_Games_Js/src/PageList.js1643298658930214500 0
+48/home/vali/THP1/Video_Games_Js/src/PageDetail.js1643298657430214500 0
 47/home/vali/THP1/Video_Games_Js/src/assets/fonts1643106138712677400 1
 41/home/vali/THP1/Video_Games_Js/src/assets1643106151012677400 1
-43/home/vali/THP1/Video_Games_Js/src/index.js1643280175500214500 0
+43/home/vali/THP1/Video_Games_Js/src/index.js1643298702420214500 0
 55/home/vali/THP1/Video_Games_Js/src/style/variables.scss1643278235930214500 0
 50/home/vali/THP1/Video_Games_Js/src/style/body.scss1643271665330214500 0
 50/home/vali/THP1/Video_Games_Js/src/style/main.scss1643291153060214500 0
@@ -2796,7 +2796,7 @@
 87/home/vali/THP1/Video_Games_Js/node_modules/@parcel/node-resolver-core/test/resolver.js1643105465612677400 0
 88/home/vali/THP1/Video_Games_Js/node_modules/@babel/types/lib/validators/isBlockScoped.js1643105464772677400 0
 98/home/vali/THP1/Video_Games_Js/node_modules/@parcel/node-resolver-core/test/fixture/nested/test.js1643105465632677400 0
-45/home/vali/THP1/Video_Games_Js/src/index.html1643199618138195800 0
+45/home/vali/THP1/Video_Games_Js/src/index.html1643297216780214500 0
 81/home/vali/THP1/Video_Games_Js/node_modules/core-js/actual/array/last-index-of.js1643105467312677400 0
 76/home/vali/THP1/Video_Games_Js/node_modules/es-abstract/helpers/modBigInt.js1643105465662677400 0
 78/home/vali/THP1/Video_Games_Js/node_modules/@parcel/events/src/ValueEmitter.js1643105471052677400 0
@@ -5129,7 +5129,7 @@
 73/home/vali/THP1/Video_Games_Js/node_modules/highlight.js/scss/lioshi.scss1643105465482677400 0
 68/home/vali/THP1/Video_Games_Js/node_modules/css-tree/dist/csstree.js1643105461972677400 0
 66/home/vali/THP1/Video_Games_Js/node_modules/range-parser/README.md1643105458322677400 0
-53/home/vali/THP1/Video_Games_Js/dist/index.996ecb51.js1643295745400214500 0
+53/home/vali/THP1/Video_Games_Js/dist/index.996ecb51.js1643298426100214500 0
 62/home/vali/THP1/Video_Games_Js/node_modules/fastq/test/test.js1643105459992677400 0
 79/home/vali/THP1/Video_Games_Js/node_modules/highlight.js/lib/languages/swift.js1643105464992677400 0
 87/home/vali/THP1/Video_Games_Js/node_modules/es-abstract/2016/CreateListFromArrayLike.js1643105462462677400 0
@@ -5471,7 +5471,7 @@
 91/home/vali/THP1/Video_Games_Js/node_modules/@parcel/transformer-html/lib/HTMLTransformer.js1643105467362677400 0
 62/home/vali/THP1/Video_Games_Js/node_modules/@parcel/graph/test1643105466512677400 1
 92/home/vali/THP1/Video_Games_Js/node_modules/@swc/helpers/src/_possible_constructor_return.js1643105463752677400 0
-30/home/vali/THP1/Video_Games_Js1643109259012677400 1
+30/home/vali/THP1/Video_Games_Js1643296336450214500 1
 75/home/vali/THP1/Video_Games_Js/node_modules/core-js/es/typed-array/index.js1643105467072677400 0
 67/home/vali/THP1/Video_Games_Js/node_modules/queue-microtask/LICENSE1643105458362677400 0
 77/home/vali/THP1/Video_Games_Js/node_modules/@parcel/config-default/index.json1643105471242677400 0
@@ -5546,7 +5546,7 @@
 107/home/vali/THP1/Video_Games_Js/node_modules/@parcel/core/test/fixtures/invalid-source-not-file/package.json1643105475172677400 0
 70/home/vali/THP1/Video_Games_Js/node_modules/serve-handler/package.json1643105464252677400 0
 67/home/vali/THP1/Video_Games_Js/node_modules/escalade/dist/index.mjs1643105461362677400 0
-35/home/vali/THP1/Video_Games_Js/dist1643296050060214500 1
+35/home/vali/THP1/Video_Games_Js/dist1643298655200214500 1
 66/home/vali/THP1/Video_Games_Js/node_modules/mkdirp/readme.markdown1643105464552677400 0
 71/home/vali/THP1/Video_Games_Js/node_modules/htmlnano/lib/presets/max.js1643105464612677400 0
 91/home/vali/THP1/Video_Games_Js/node_modules/@parcel/fs-search/fs-search.win32-x64-msvc.node1643105468612677400 0
@@ -11061,7 +11061,7 @@
 89/home/vali/THP1/Video_Games_Js/node_modules/caniuse-lite/data/features/permissions-api.js1643105465782677400 0
 74/home/vali/THP1/Video_Games_Js/node_modules/chokidar/lib/nodefs-handler.js1643108652312677400 0
 75/home/vali/THP1/Video_Games_Js/node_modules/caniuse-lite/data/regions/MO.js1643105465662677400 0
-42/home/vali/THP1/Video_Games_Js/src/Home.js1643296049920214500 0
+42/home/vali/THP1/Video_Games_Js/src/Home.js1643298655050214500 0
 60/home/vali/THP1/Video_Games_Js/node_modules/bytes/History.md1643105458452677400 0
 121/home/vali/THP1/Video_Games_Js/node_modules/stream-browserify/node_modules/readable-stream/lib/internal/streams/stream.js1643105473352677400 0
 58/home/vali/THP1/Video_Games_Js/node_modules/domain-browser1643105463822677400 1

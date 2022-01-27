@@ -1,7 +1,8 @@
-const apiKey = process.env.API_KEY;
+const apiKey = `?key=${process.env.API_KEY}`;
 
 const PageDetail = (argument = "") => {
-  
+  console.log("Page Detail", argument);
+
   const preparePage = () => {
     const cleanedArgument = argument.replace(/\s+/g, "-");
 

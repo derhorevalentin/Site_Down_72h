@@ -523,8 +523,9 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "PageDetail", ()=>PageDetail
 );
-const apiKey = "21475d906a3e48d2a8b70ee08b091b08";
+const apiKey = `?key=${"21475d906a3e48d2a8b70ee08b091b08"}`;
 const PageDetail = (argument1 = "")=>{
+    console.log("Page Detail", argument1);
     const preparePage = ()=>{
         const cleanedArgument = argument1.replace(/\s+/g, "-");
         const fetchGame = (url, argument)=>{
