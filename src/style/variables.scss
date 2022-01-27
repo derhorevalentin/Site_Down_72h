@@ -1,0 +1,10 @@
+$white: rgb(255, 255, 255);
+$grey: rgb(97, 97, 97);
+$red: rgb(193, 37, 48);
+$black: rgb(25, 25, 25);
+$title-color: #ff0000;
+
+@mixin redtitle {
+  color: $red;
+  text-transform: uppercase;
+}

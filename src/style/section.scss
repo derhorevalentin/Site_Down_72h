@@ -1,0 +1,135 @@
+@import "variables.scss";
+
+.article {
+  text-align: center;
+  padding: 50px;
+}
+
+.article h1 {
+  font-size: 3rem;
+  color: $red;
+}
+.article p {
+  font-size: 1rem;
+}
+.article img {
+  width: 80%;
+  aspect-ratio: 16/9;
+}
+
+.rate p {
+  color: $red;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.description {
+  font-size: 2rem;
+  color: $white;
+  margin-left: 200px;
+}
+.description h1 {
+  font-size: 4rem;
+  color: $white;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.descriptions {
+  color: $white;
+}
+
+.descriptions p {
+  font-size: 1.5rem;
+}
+.release {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.release p {
+  font-size: 1.5rem;
+  color: $white;
+}
+
+.game-info {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  p {
+    color: $white;
+    font-size: 2rem;
+    font-size: bolder;
+    width: 60%;
+  }
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+
+  .item {
+    width: 100%;
+    aspect-ratio: 16/9;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.video {
+  width: 100%;
+}
+
+.section {
+  .title {
+    @include redtitle;
+  }
+  footer {
+    @include redtitle;
+    font-size: 2rem;
+  }
+  .devs {
+    font-size: 1.5rem;
+    color: $white;
+  }
+  .tags {
+    font-size: 1.5rem;
+    color: $white;
+  }
+  .genre {
+    font-size: 1.5rem;
+    color: $white;
+  }
+  .editor {
+    font-size: 1.5rem;
+    color: $white;
+  }
+  .web {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: $red;
+  }
+  a {
+    text-decoration: none;
+    color: $red;
+  }
+  span {
+    font-size: 1.5rem;
+    color: $white;
+  }
+  .platform {
+    font-size: 1.5rem;
+    color: $white;
+  }
+  .btn {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,291 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat&display=swap";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 1rem;
+  background-color: #191919;
+}
+header {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+  font-size: 2rem;
+  color: #c12530;
+}
+header h1 {
+  width: 100%;
+}
+
+.Titlefix {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #ff0000;
+  font-size: 80px;
+  text-decoration: none !important;
+  font-weight: bold;
+  margin: 60px auto;
+}
+
+#searchinput {
+  border-radius: 50px;
+  height: 2em;
+  width: 25%;
+  font-size: 22px;
+  background-color: #242424;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  color: #fff;
+  margin: 90px auto;
+}
+
+.firstcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 70px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+a,
+a:visited {
+  font-size: 3rem;
+  text-decoration: none;
+  position: relative;
+}
+a:after,
+a:visited:after {
+  content: "";
+  height: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  background-color: #c12530;
+  transition: 0.2s;
+}
+a:hover:after,
+a:visited:hover:after {
+  width: 100%;
+}
+a.block,
+a:visited.block {
+  display: block;
+  padding: 0.5em;
+}
+a.block:hover,
+a:visited.block:hover {
+  background: #eee;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardGame {
+  border-radius: 8px;
+  width: 30rem;
+  margin: 1rem;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cardGame h1 {
+  color: white;
+}
+
+.cardGame a {
+  text-decoration: none;
+  color: #c12530;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.cardGame img {
+  width: 100%;
+  border-radius: 8px;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.overview {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1rem;
+  max-height: 100%;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in;
+  background-color: white;
+  opacity: 0.9;
+}
+
+.overview h1 {
+  color: #191919;
+  opacity: 1 !important;
+}
+
+.overview p {
+  color: #5e7fd8;
+  font-weight: bolder;
+  opacity: 1 !important;
+}
+
+.cardGame:hover .overview {
+  transform: translateY(0);
+}
+.article {
+  text-align: center;
+  padding: 50px;
+}
+
+.article h1 {
+  font-size: 3rem;
+  color: #c12530;
+}
+
+.article p {
+  font-size: 1rem;
+}
+
+.article img {
+  width: 80%;
+  aspect-ratio: 16/9;
+}
+
+.rate p {
+  color: #c12530;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.description {
+  font-size: 2rem;
+  color: white;
+  margin-left: 200px;
+}
+
+.description h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.descriptions {
+  color: white;
+}
+
+.descriptions p {
+  font-size: 1.5rem;
+}
+
+.release {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.release p {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.game-info {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.game-info p {
+  color: white;
+  font-size: 2rem;
+  font-size: bolder;
+  width: 60%;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.grid-2 .item {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-size: cover;
+  background-position: center;
+}
+
+.video {
+  width: 100%;
+}
+
+.section .title {
+  color: #c12530;
+  text-transform: uppercase;
+}
+.section footer {
+  color: #c12530;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.section .devs {
+  font-size: 1.5rem;
+  color: white;
+}
+.section .tags {
+  font-size: 1.5rem;
+  color: white;
+}
+.section .genre {
+  font-size: 1.5rem;
+  color: white;
+}
+.section .editor {
+  font-size: 1.5rem;
+  color: white;
+}
+.section .web {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #c12530;
+}
+.section a {
+  text-decoration: none;
+  color: #c12530;
+}
+.section span {
+  font-size: 1.5rem;
+  color: white;
+}
+.section .platform {
+  font-size: 1.5rem;
+  color: white;
+}
+.section .btn {
+  font-size: 2rem;
+}
+/*# sourceMappingURL=index.4ed70eec.css.map */
